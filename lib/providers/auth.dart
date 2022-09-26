@@ -88,8 +88,8 @@ class Auth with ChangeNotifier {
 
 }
   void logout()async{
-    _token=null;
-    _userId=null;
+    _token='';
+    _userId='';
     _expiryDate=null;
     if(_authTimer !=null){
       _authTimer!.cancel();
