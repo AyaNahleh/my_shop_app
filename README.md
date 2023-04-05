@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+# Getting Started
 
 This is a shop app with Firebase as backend, all the products, orders, users accounts are stored in firebase
 
